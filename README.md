@@ -2,7 +2,7 @@
 
 ### Week1
 
-< 5/10 실습 내용>
+< 5/10 실습 내용 >
 - GitHub 간단 소개, GitHub Desktop 다운
 1. GitHub Desktop 설치 후 로그인
 2. Team.Cayley 깃헙 2024-Tutorial 레포지토리 clone 하기 
@@ -16,3 +16,12 @@
  
 < 추가 공지 >
 - beginner week2 교안에서 `input()` 이 vscode에서 실행안되는 경우가 있는데, 해당 부분은 건너뛰고 진행해도 됩니다. 
+
+
+### Week2
+
+< 5/17 실습 내용 >
+- 파이썬 기초 복습
+- 네이버 부스트캠프의 2-3주차 실습 따라하기: https://www.boostcourse.org/ds112/lecture/59915?isDesc=false
+- 3주차의 [Colab파일](https://colab.research.google.com/github/corazzon/boostcourse-ds-510/blob/master/open-data-analysis-input.ipynb) 파일탭에서 다운로드(.ipynb)받고 본인이름.ipynb로 수정 후 실습코드 작성
+- 작성한 실습코드는 Github 경로(week3)에 제출하기
