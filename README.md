@@ -15,4 +15,4 @@
   - [코사다마 깃헙 가이드](https://github.com/Team-COSADAMA/2021-Curriculum/tree/main/GitHub-Guides)
  
 < 추가 공지 >
-- beginner week1 교안에서 `input()` 이 vscode에서 실행안되는 경우가 있는데, 해당 부분은 건너뛰고 진행해도 됩니다. 
+- beginner week2 교안에서 `input()` 이 vscode에서 실행안되는 경우가 있는데, 해당 부분은 건너뛰고 진행해도 됩니다. 
