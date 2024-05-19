@@ -161,3 +161,4 @@ cython_debug/
 
 # mac
 .DS_Store
+/Tutorial/advanced/week1
