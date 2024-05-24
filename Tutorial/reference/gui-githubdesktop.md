@@ -16,6 +16,10 @@
 ![./contents/gitclone-3.png](https://github.com/Team-COSADAMA/2021-Curriculum/raw/main/GitHub-Guides/contents/gitclone-3.png)  
 Current repository 옆에 있는 조그만 삼각형을 클릭하면 Add 버튼이 나타납니다. 여기서 Clone repository를 클릭해도 clone할 수 있습니다.
 
+**주의사항**
+이 때 꼭, 브랜치를 본인이 생성한 브랜치로 변경해주세요. 만약 main branch로 clone을 하게 되면, 다른 사람의 코드를 수정하게 되어 충돌이 발생할 수 있습니다.
+브랜치가 없는 경우 `Branch` 탭을 클릭하고 `New branch`를 눌러 새로운 브랜치를 생성해주세요.
+
 ## git commit (+add)
 
 ![./contents/gitcommit.png](https://github.com/Team-COSADAMA/2021-Curriculum/raw/main/GitHub-Guides/contents/gitcommit.png)  
@@ -30,8 +34,25 @@ Commit to main 버튼을 누르면 오른쪽 상단에 Push origin이 생깁니�
 ![./contents/gitpush-2.png](https://github.com/Team-COSADAMA/2021-Curriculum/raw/main/GitHub-Guides/contents/gitpush-2.png)  
 다음과 같이 현재의 브랜치가 master가 아닌 경우에 (즉, 사설 branch인 경우에는) Push를 마치고 나서 다음과 같이 master로 `Pull request`를 하라는 버튼을 GitHub가 알아서 띄워줍니다.
 
+## pull request
 
+![./contents/gitpull-1.png](pull-request.png)
+![./contents/gitpull-2.png](pull-request-2.png)
+GitHub Desktop에서는 Pull request를 할 수 있도록 알아서 버튼을 띄워줍니다. 이 버튼을 누르면 GitHub Desktop이 자동으로 브라우저를 열어 Pull request를 할 수 있는 페이지로 이동합니다.
 
+![./contents/gitpull-3.png](pull-request-3.png)
+이렇게 Pull request를 할 수 있는 페이지로 이동합니다. 여기서 Pull request를 작성하고 `Create pull request`를 누르면 Pull request가 완료됩니다.
+
+권한이 있는 경우 `Merge` 버튼이 활성화되어 Merge를 할 수 있습니다.
+![./contents/gitpull-4.png](merge.png)
+
+## git pull origin main
+
+![./contents/update-from-main.png](update-from-main.png)
+main branch에서 변경사항이 있을 경우, GitHub Desktop의 Branch 탭을 클릭하고, `update from main`을 클릭하면 main branch의 변경사항을 가져올 수 있습니다. 이후 Pull origin main을 클릭하면 변경사항을 가져올 수 있습니다.
+
+이메일로 초대되기 전의 친구들(fork)은 다른 사람의 코드가 보이지 않습니다. 크롬에서 github을 들어가 확인하거나, GitHub Desktop에서 만들었던 repository를 삭제하고 다시 clone을 받아야 합니다.
+다시 clone하는 것은 필수사항은 아니니 참고만 해주세요.
 
 ## git pull
 
