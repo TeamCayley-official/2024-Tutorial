@@ -36,13 +36,13 @@
 - Pandas, matplotlb, seaborn 을 활용해서 csv 데이터 불러오고 살펴보는 방법 리뷰
 - (중금) 지난 시간 질문, flask 설정
 
-- 초급 to-do
+#### 초급 to-do
 - https://www.data4library.kr/openDataL의 '김영삼도서관 장서/대출 데이터' 또는 '참여도서관데이터' 사용
-. [김영삼도서관 장서/대출 데이터](https://github.com/TeamCayley-official/2024-Tutorial/blob/main/Tutorial/beginner/week4/%EA%B9%80%EC%98%81%EC%82%BC%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%9E%A5%EC%84%9C%20%EB%8C%80%EC%B6%9C%EB%AA%A9%EB%A1%9D%20(2024%EB%85%84%2004%EC%9B%94).xlsx)
-. [참여도서관 데이터](https://github.com/TeamCayley-official/2024-Tutorial/blob/main/Tutorial/beginner/week4/%EB%8F%84%EC%84%9C%EA%B4%80%EC%A0%95%EB%B3%B4%EB%82%98%EB%A3%A8_%EC%B0%B8%EC%97%AC%EB%8F%84%EC%84%9C%EA%B4%80%EB%AA%A9%EB%A1%9D.xlsx)
-. github desktop에서 '브랜치(Branch)' 탭에서 'update from main' 누르면 본인 컴퓨터에 위 파일이 week4 폴더에 생기면 그 데이터 사용함
-. 다른 사람데이터 안보이고 본인 코드만 보이는 경우, 위 링크에서 오른쪽의 Download raw file 아이콘 눌러서 데이터 다운받기
+- [김영삼도서관 장서/대출 데이터](https://github.com/TeamCayley-official/2024-Tutorial/blob/main/Tutorial/beginner/week4/%EA%B9%80%EC%98%81%EC%82%BC%EB%8F%84%EC%84%9C%EA%B4%80%20%EC%9E%A5%EC%84%9C%20%EB%8C%80%EC%B6%9C%EB%AA%A9%EB%A1%9D%20(2024%EB%85%84%2004%EC%9B%94).xlsx)
+- [참여도서관 데이터](https://github.com/TeamCayley-official/2024-Tutorial/blob/main/Tutorial/beginner/week4/%EB%8F%84%EC%84%9C%EA%B4%80%EC%A0%95%EB%B3%B4%EB%82%98%EB%A3%A8_%EC%B0%B8%EC%97%AC%EB%8F%84%EC%84%9C%EA%B4%80%EB%AA%A9%EB%A1%9D.xlsx)
+- github desktop에서 '브랜치(Branch)' 탭에서 'update from main' 누르면 본인 컴퓨터에 위 파일이 week4 폴더에 생기면 그 데이터 사용함
+- 다른 사람데이터 안보이고 본인 코드만 보이는 경우, 위 링크에서 오른쪽의 Download raw file 아이콘 눌러서 데이터 다운받기
 
-. 둘 중에 하나 선택해서 본인이 직접 데이터 분석해보기
-. 예시: 참여도서관의 주소컬럼을 사용해서 시도별 도서관 수량 분석, 위도 경도 컬럼 사용해서 시각화해보기(week3 참고), 참여도서관 수량 계산
-. 예시2: 장서대출 데이터를 통해서, 김영삼도서관에서 많이 대출되는 도서 10개 출력, 출판연도별로 도서분석 등
+- 둘 중에 하나 선택해서 본인이 직접 데이터 분석해보기
+- 예시: 참여도서관의 주소컬럼을 사용해서 시도별 도서관 수량 분석, 위도 경도 컬럼 사용해서 시각화해보기(week3 참고), 참여도서관 수량 계산
+- 예시2: 장서대출 데이터를 통해서, 김영삼도서관에서 많이 대출되는 도서 10개 출력, 출판연도별로 도서분석 등
