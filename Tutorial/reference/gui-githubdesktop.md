@@ -16,6 +16,10 @@
 ![./contents/gitclone-3.png](https://github.com/Team-COSADAMA/2021-Curriculum/raw/main/GitHub-Guides/contents/gitclone-3.png)  
 Current repository 옆에 있는 조그만 삼각형을 클릭하면 Add 버튼이 나타납니다. 여기서 Clone repository를 클릭해도 clone할 수 있습니다.
 
+**주의사항**
+이 때 꼭, 브랜치를 본인이 생성한 브랜치로 변경해주세요. 만약 main branch로 clone을 하게 되면, 다른 사람의 코드를 수정하게 되어 충돌이 발생할 수 있습니다.
+브랜치가 없는 경우 `Branch` 탭을 클릭하고 `New branch`를 눌러 새로운 브랜치를 생성해주세요.
+
 ## git commit (+add)
 
 ![./contents/gitcommit.png](https://github.com/Team-COSADAMA/2021-Curriculum/raw/main/GitHub-Guides/contents/gitcommit.png)  
@@ -49,7 +53,6 @@ main branch에서 변경사항이 있을 경우, GitHub Desktop의 Branch 탭을
 
 이메일로 초대되기 전의 친구들(fork)은 다른 사람의 코드가 보이지 않습니다. 크롬에서 github을 들어가 확인하거나, GitHub Desktop에서 만들었던 repository를 삭제하고 다시 clone을 받아야 합니다.
 다시 clone하는 것은 필수사항은 아니니 참고만 해주세요.
-
 
 ## git pull
 
