@@ -28,7 +28,10 @@ Commit을 마쳤습니다! 🤗
 ![./contents/gitpush-1.png](https://github.com/Team-COSADAMA/2021-Curriculum/raw/main/GitHub-Guides/contents/gitpush-1.png)  
 Commit to main 버튼을 누르면 오른쪽 상단에 Push origin이 생깁니다. 이것을 눌러주면 Push 완료! 😎  
 ![./contents/gitpush-2.png](https://github.com/Team-COSADAMA/2021-Curriculum/raw/main/GitHub-Guides/contents/gitpush-2.png)  
-다음과 같이 현재의 브랜치가 master가 아닌 경우에 (즉, 사설 branch인 경우에는) Push를 마치고 나서 다음과 같이 master로 Pull request를 하라는 버튼을 GitHub가 알아서 띄워줍니다.
+다음과 같이 현재의 브랜치가 master가 아닌 경우에 (즉, 사설 branch인 경우에는) Push를 마치고 나서 다음과 같이 master로 `Pull request`를 하라는 버튼을 GitHub가 알아서 띄워줍니다.
+
+
+
 
 ## git pull
 
