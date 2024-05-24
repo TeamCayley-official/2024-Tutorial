@@ -25,3 +25,9 @@
 - 네이버 부스트캠프의 2-3주차 실습 따라하기: https://www.boostcourse.org/ds112/lecture/59915?isDesc=false
 - 3주차의 [Colab파일](https://colab.research.google.com/github/corazzon/boostcourse-ds-510/blob/master/open-data-analysis-input.ipynb) 파일탭에서 다운로드(.ipynb)받고 본인이름.ipynb로 수정 후 실습코드 작성
 - 작성한 실습코드는 Github 경로(week3)에 제출하기
+
+### Week3
+
+< 5/24 실습 내용 >
+- Pandas, matplotlb, seaborn 을 활용해서 csv 데이터 불러오고 살펴보는 방법 리뷰
+- (중금) 지난 시간 질문, flask 설정
