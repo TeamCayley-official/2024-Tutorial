@@ -1,0 +1,96 @@
+#Q1. 30에서 1씩 빼다가 결과가 5의 배수가 되면 멈추는 식을 작성해보세요.
+count = 30
+while count > 1:
+    count -= 1
+    if count % 5 == 0:
+        print(count)
+
+#Q2. 1에서 100 사이의 모든 짝수의 합을 구해보세요.
+num = 1
+sum = 0
+while num <= 100:
+    if num % 2 == 0:
+        sum += num
+    num += 1
+print(sum)
+
+#Q3. 다음 과일 이름 리스트 중, 과일 이름의 길이가 가장 긴 과일을 찾아보세요. // fruits = ['사과', '오렌지', '파인애플', '귤', '천도복숭아', '리치', '코코넛', '샤인머스켓', '드래곤후르츠', '한라봉', '감']
+fruits = ['사과', '오렌지', '파인애플', '귤', '천도복숭아', '리치', '코코넛', '샤인머스켓', '드래곤후르츠', '한라봉', '감']
+dic_fruits={}
+for fruit in fruits:
+    dic_fruits[len(fruit)]=fruit
+answer = max(dic_fruits.keys())
+print(dic_fruits[answer])
+
+
+#Q4. while문을 활용하여 구구단 1단부터 9단까지 출력해보세요.
+a = 1
+b = 1
+while a <= 9:
+    while b<=9:
+        print("{} * {} = {}".format(a,b,a*b))
+        b += 1
+    a+=1
+    b=1
+    
+#Q5. 369게임 결과를 출력해보세요. (단, 33, 36, 39는 박수를 두 번치고, 50번째에 게임은 끝남)
+i = 1
+while i <= 50:
+    s = str(i)
+    n = s.count('3') + s.count('6') + s.count('9')
+    if n == 1:
+        print("짝")
+    elif n == 2:
+        print('짝짝')
+    else:
+        print(i)
+    i += 1
+
+#Q6. beyonce의 등수는 1등, 임영웅의 등수는 3등, 장원영의 등수는 2등입니다. 이 정보들을 변수에 넣어 아래 예시와 같이 이름을 입력받고 점수를 출력하는 프로그램을 만드세요.
+dic = {'beyonce' : '1등', '임영웅' : '3등', '장원영' : '2등'}
+name = input('이름을 입력하세요> ')
+print(dic.get(name, '해당이름이 없습니다.'))
+
+#Q7. 구구단을 외자! 숫자를 입력받으면, 해당 숫자의 구구단(해당 숫자에 1~9를 곱한 값들)을 출력하는 함수를 만드세요
+def gugudan(a):
+    for num in range(1,10):
+        mul = a * num
+        print(mul)
+    return        
+eh = int(input('구구단을 외자!> '))
+gugudan(eh)
+
+#Q8. 이번 주 로또 번호를 화면에 표시하는 프로그램을 만들고자 합니다.
+#로또 설명
+# 1 000회분의 로또 번호를 랜덤하게 생성한 것을 지난 1000회의 로또 번호라 가정합니다. 1회분의 로또 번호는 1-45 사이의 중복되지 않는 숫자 6개로 이뤄집니다. 지난 1000회에서 나온 숫자(1000회*6개)의 빈도를 계산하고 표시한 후, 가장 높은 빈도를 가진 숫자 6개를 뽑아 이 주의 로또 번호로 화면에 표시합니다. 로또 함수 설명 1회분의 로또 번호 생성기를 하나의 함수로 만듭니다. 이 함수를 1000회 사용하면 1000주 분량의 로또 번호를 만들 수 있습니다. 1000회분의 로또 번호를 화면에 표시합니다. 이 결과를 모아 통계를 내, 각 숫자가 몇회 등장했는지 표시합니다. 가장 자주 나타난 숫자 6개를 고르면, 이것이 이 주의 로또 번호 예측입니다. 동수가 동수가 있을 경우 어느 숫자를 골라도 무관합니다. 예컨대, 23과 41이 모두 80회씩 나타났다면 둘 중 아무 숫자를 써도 상관 없습니다.
+import random
+import heapq
+
+def lotto(int):
+    a = 0
+    list = []
+    for a in range(1,7):
+        list.append(random.randint(1,46))
+        a += 1
+    return list
+    
+list_list = []
+
+for a in range(1,11):
+    list = lotto(a)
+    print('{}회차: {}'.format(a,list))
+    list_list += list
+
+dict = {}
+
+for b in range(1,46):
+    c = list_list.count(b)
+    dict[b] = c
+print('숫자 당 등장 횟수 | {}'.format(dict))
+
+top_6 = heapq.nlargest(6, dict.items(), key=lambda x: x[1])
+print('빈도가 높은 6개의 수와 각각의 빈도 | {}'.format(top_6))
+top_6_numbers = [p for p, q in top_6]
+random.shuffle(top_6_numbers)
+print()
+print('추천 로또 번호: {}'.format(top_6_numbers))
