@@ -74,5 +74,4 @@ for i in range(1,10):
 # - 동수가 동수가 있을 경우 어느 숫자를 골라도 무관합니다. 예컨대, 23과 41이 모두 80회씩 나타났다면 둘 중 아무 숫자를 써도 상관 없습니다.
 
 import random
-random.sample(range(1,46),6)
-# 모르겠어요... 죄송합니다ㅜㅜ 
+random.sample(range(1,46),6) 

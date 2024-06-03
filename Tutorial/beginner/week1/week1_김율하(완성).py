@@ -159,4 +159,4 @@ print(average)
 #그 중 가장 큰 수와 가장 작은 수를 print() 함수를 통해 출력하세요.
 number = [5,1000,10000,4,578,444,3,1,0,9]
 number.sort()
-print(number[0], number[-1])
+print(f'가장 작은 수: {number[0]}, 가장 큰 수: {number[-1]}')
